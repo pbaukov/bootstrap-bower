@@ -7025,6 +7025,7 @@ angular.module("uib/template/datepicker/datepicker.html", []).run(["$templateCac
     "<div class=\"uib-datepicker\" ng-switch=\"datepickerMode\" role=\"application\" ng-keydown=\"keydown($event)\">\n" +
     "  <uib-daypicker ng-switch-when=\"day\" tabindex=\"0\"></uib-daypicker>\n" +
     "  <uib-monthpicker ng-switch-when=\"month\" tabindex=\"0\"></uib-monthpicker>\n" +
+    "  <uib-quarterpicker ng-switch-when=\"quarter\" tabindex=\"0\"></uib-quarterpicker>\n" +
     "  <uib-yearpicker ng-switch-when=\"year\" tabindex=\"0\"></uib-yearpicker>\n" +
     "</div>\n" +
     "");
